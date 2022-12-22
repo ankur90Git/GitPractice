@@ -29,5 +29,7 @@ public class LoginPage {
 		JavascriptExecutor executor = (JavascriptExecutor)driver;
 		executor.executeScript("arguments[0].click();", btnLogin);
 	}
+	
+	#Added login method with credentials
 
 }
